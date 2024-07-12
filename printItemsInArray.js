@@ -1,5 +1,5 @@
-const students = ['Zick', 'Kharis', 'Jenny', 'Sebas']
-
-students.forEach(name => {
-    console.log(name)
-})
+function printItemsInArray(aray) {
+    aray.forEach(name => {
+        console.log(name)
+    })
+}
